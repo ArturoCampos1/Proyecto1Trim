@@ -11,10 +11,17 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
+
+
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hola JavaFX");
+        stage.setTitle("CineVerse");
         stage.setScene(scene);
+
+        scene.getStylesheets().add(
+                getClass().getResource("/styles.css").toExternalForm()
+        );
+
         stage.show();
     }
 
