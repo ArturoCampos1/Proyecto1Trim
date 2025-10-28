@@ -55,3 +55,10 @@
     -fx-effect: dropshadow(gaussian, rgba(91,85,196,0.20), 16, 0.2, 0, 2);
     -fx-background-radius: 10;
 }
+
+#popular{
+    -fx-background-color: #ff49fc;
+    -fx-padding: 2 6;
+    -fx-effect: dropshadow(gaussian, rgba(91,85,196,0.20), 16, 0.2, 0, 2);
+    -fx-background-radius: 10;
+}

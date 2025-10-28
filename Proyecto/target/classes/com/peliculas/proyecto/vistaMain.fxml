@@ -32,17 +32,18 @@
       <Label id="subTitle" layoutX="416.0" layoutY="82.0" prefHeight="40.0" prefWidth="166.0" stylesheets="@../../../styles.css" text="🎥   Tu cine en línea" />
       <Pane id="cardLogin" layoutX="68.0" layoutY="252.0" prefHeight="304.0" prefWidth="417.0" stylesheets="@../../../styles.css">
          <children>
-            <Text id="letrasEspeciales" layoutX="105.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Busqueda de películas">
+            <Text id="letrasEspeciales" layoutX="105.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Búsqueda de películas">
                <font>
                   <Font size="22.0" />
                </font>
             </Text>
-            <Text fill="#535353" layoutX="146.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Explora nuestro catálogo!" />
+            <Text fill="#535353" layoutX="143.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Explora nuestro catálogo!" />
             <Label id="lupa" layoutX="167.0" layoutY="53.0" text="🔍">
                <font>
                   <Font size="41.0" />
                </font>
             </Label>
+            <Label id="popular" layoutX="176.0" layoutY="184.0" text="Popular 🔥" />
          </children>
       </Pane>
       <Pane id="cardLogin" layoutX="500.0" layoutY="252.0" prefHeight="304.0" prefWidth="417.0" stylesheets="@../../../styles.css">
@@ -62,6 +63,11 @@
                   <Font size="21.0" />
                </font>
             </Button>
+            <Text fill="#0b72b7" layoutX="153.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acceso Admin" underline="true" wrappingWidth="110.5516357421875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
          </children>
       </Pane>
       <Text fill="#535353" layoutX="280.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descubre, alquila y disfruta de las mejores películas desde la comodidad de tu hogar" />
