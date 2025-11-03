@@ -5,6 +5,7 @@ import lombok.Data;
 @Data
 public class Pelicula {
 
+    private int idPelicula;
     private String titulo;
     private String anioSalida;
     private String director;
